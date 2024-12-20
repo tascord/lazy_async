@@ -1,0 +1,12 @@
+[package]
+name = "lazy_azync"
+description = "Get data from async functions lazily"
+repository = "https://github.com/tascord/lazy_async"
+authors = ["Flora Hill"]
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.31"
+tokio = { version = "1.42.0", features = ["full", "sync"] }
